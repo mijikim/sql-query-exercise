@@ -1,0 +1,15 @@
+exercisedb=# select id, name, address from customers;
+ id |         name         |       address
+----+----------------------+---------------------
+  1 | Donato Rempel        | 890 Ullrich Plains
+  2 | Tyrell Von DDS       | 63337 Abdullah Camp
+  3 | Ms. Sofia Rowe       | 1991 Kyler Village
+  4 | Evert Pfeffer        | 1311 Khalil Shores
+  5 | Elta Dicki           | 3878 Alyce Lock
+  6 | Zelma Davis          | 184 Hazel Lane
+  7 | Edna Hintz           | 2550 Hassan Pass
+  8 | Coleman Prohaska Jr. | 32202 Zemlak Ridge
+  9 | Wilhelmine Huels     | 44097 Elvie Divide
+ 10 | Hulda Will III       | 3746 Ashton Divide
+(10 rows)
+

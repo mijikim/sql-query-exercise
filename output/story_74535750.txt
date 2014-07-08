@@ -1,0 +1,22 @@
+exercisedb=# select orderitems.*, items.description as item_name, orders.customer_id as customer_id from orderitems inner join items on orderitems.item_id = items.id inner join orders on orderitems.order_id = orders.id where orderitems.item_id = 8;
+ id  | order_id | item_id | item_name | customer_id
+-----+----------+---------+-----------+-------------
+   6 |        2 |       8 | ski boots |           5
+  10 |        3 |       8 | ski boots |           7
+  16 |        5 |       8 | ski boots |           4
+  32 |        9 |       8 | ski boots |           3
+  39 |       11 |       8 | ski boots |           1
+  48 |       14 |       8 | ski boots |           6
+  63 |       19 |       8 | ski boots |           3
+  77 |       23 |       8 | ski boots |          10
+  79 |       24 |       8 | ski boots |           7
+ 101 |       30 |       8 | ski boots |          10
+ 109 |       32 |       8 | ski boots |           4
+ 120 |       35 |       8 | ski boots |           3
+ 123 |       36 |       8 | ski boots |           5
+ 127 |       38 |       8 | ski boots |           4
+ 132 |       39 |       8 | ski boots |           5
+ 145 |       43 |       8 | ski boots |           8
+ 150 |       44 |       8 | ski boots |           8
+ 166 |       50 |       8 | ski boots |           5
+(18 rows)

@@ -1,0 +1,6 @@
+exercisedb=# select sum (amount) as total from orders
+exercisedb-# ;
+  total
+---------
+ 2466.41
+(1 row)

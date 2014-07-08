@@ -1,0 +1,5 @@
+exercisedb=# select count (*) from customers;
+ count
+-------
+    10
+(1 row)

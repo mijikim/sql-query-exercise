@@ -1,0 +1,15 @@
+MiJi=# CREATE DATABASE exercisedb;
+CREATE DATABASE
+MiJi=# \list
+                               List of databases
+    Name    | Owner | Encoding |   Collate   |    Ctype    | Access privileges
+------------+-------+----------+-------------+-------------+-------------------
+ MiJi       | MiJi  | UTF8     | en_US.UTF-8 | en_US.UTF-8 |
+ exercisedb | MiJi  | UTF8     | en_US.UTF-8 | en_US.UTF-8 |
+ postgres   | MiJi  | UTF8     | en_US.UTF-8 | en_US.UTF-8 |
+ template0  | MiJi  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/MiJi          +
+            |       |          |             |             | MiJi=CTc/MiJi
+ template1  | MiJi  | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/MiJi          +
+            |       |          |             |             | MiJi=CTc/MiJi
+ testdb     | MiJi  | UTF8     | en_US.UTF-8 | en_US.UTF-8 |
+(6 rows)

@@ -1,0 +1,22 @@
+exercisedb=# select orderitems.*, items.description as item_name, orders.customer_id as customer_id from orderitems inner join items on orderitems.item_id = items.id inner join orders on orderitems.order_id = orders.id where orderitems.item_id = 6;
+ id  | order_id | item_id | item_name | customer_id
+-----+----------+---------+-----------+-------------
+  11 |        4 |       6 | tricycle  |           4
+  20 |        6 |       6 | tricycle  |           5
+  27 |        8 |       6 | tricycle  |           8
+  43 |       13 |       6 | tricycle  |           5
+  56 |       17 |       6 | tricycle  |           2
+  76 |       22 |       6 | tricycle  |           4
+  80 |       24 |       6 | tricycle  |           7
+  85 |       25 |       6 | tricycle  |          10
+  90 |       27 |       6 | tricycle  |           9
+  95 |       28 |       6 | tricycle  |           4
+ 106 |       32 |       6 | tricycle  |           4
+ 121 |       36 |       6 | tricycle  |           5
+ 137 |       41 |       6 | tricycle  |           1
+ 143 |       42 |       6 | tricycle  |           3
+ 149 |       44 |       6 | tricycle  |           8
+ 154 |       46 |       6 | tricycle  |          10
+ 165 |       49 |       6 | tricycle  |           3
+(17 rows)
+

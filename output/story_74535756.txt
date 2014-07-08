@@ -1,0 +1,30 @@
+
+exercisedb=# select
+exercisedb-# customers.name as customer_name,
+exercisedb-# items.name as item_name,
+exercisedb-# sum(amount) as total
+exercisedb-# from
+exercisedb-# orders
+exercisedb-# inner join customers on orders.customer_id = customers.id
+exercisedb-# inner join orderitems on orders.id = orderitems.id
+exercisedb-# inner join items on orderitems.item_id = items.id
+exercisedb-# where customers.name = 'Evert Pfeffer' and items.name = 'bike03'
+exercisedb-# group by customer_name, item_name;
+ customer_name | item_name | total
+---------------+-----------+-------
+(0 rows)
+
+
+select
+customers.name as customer_name,
+items.name as item_name,
+sum(amount) as total
+from
+orders
+inner join customers on orders.customer_id = customers.id
+inner join orderitems on orders.id = orderitems.id
+inner join items on orderitems.item_id = items.id
+where customers.name = 'Evert Pfeffer' and items.name = 'bike02'
+group by customer_name, item_name;
+
+

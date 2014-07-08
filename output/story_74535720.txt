@@ -1,0 +1,5 @@
+exercisedb=# select max (amount) from orders;
+ max
+------
+ 99.0
+(1 row)

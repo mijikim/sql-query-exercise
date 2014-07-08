@@ -1,0 +1,12 @@
+exercisedb=# select orderitems.*, items.description as item_name, orders.customer_id as customer_id from orderitems inner join items on orderitems.item_id = items.id inner join orders on orderitems.order_id = orders.id where orders.customer_id = 2;
+ id | order_id | item_id |     item_name     | customer_id
+----+----------+---------+-------------------+-------------
+ 55 |       17 |       7 | hiking boots      |           2
+ 56 |       17 |       6 | tricycle          |           2
+ 57 |       17 |       1 | downhill ski      |           2
+ 58 |       17 |       4 | mountain bike     |           2
+ 66 |       20 |       5 | road bike         |           2
+ 67 |       20 |       9 | moon boots        |           2
+ 68 |       20 |       2 | cross country ski |           2
+ 69 |       20 |       7 | hiking boots      |           2
+(8 rows)

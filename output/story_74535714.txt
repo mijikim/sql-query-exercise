@@ -1,0 +1,5 @@
+exercisedb=# select avg (amount) as average_amount from orders                                       ;
+   average_amount
+---------------------
+ 49.3282000000000000
+(1 row)

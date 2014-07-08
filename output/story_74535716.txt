@@ -1,0 +1,6 @@
+exercisedb=# select round(avg (amount), 2) as average_amount from orders
+exercisedb-# ;
+ average_amount
+----------------
+          49.33
+(1 row)

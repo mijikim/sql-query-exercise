@@ -1,0 +1,28 @@
+Mis-MacBook-Air:sql-query-exercise MiJi$ psql -d exercisedb -a -f restore.sql -U gschool
+--
+-- NOTE:
+--
+-- File paths need to be edited. Search for $$PATH$$ and
+-- replace it with the path to the directory containing
+-- the extracted data files.
+--
+--
+.
+.
+.
+.
+--
+-- PostgreSQL database dump complete
+--
+MiJi=# \connect exercisedb
+You are now connected to database "exercisedb" as user "MiJi".
+exercisedb=# \dt
+           List of relations
+ Schema |    Name    | Type  |  Owner
+--------+------------+-------+---------
+ public | customers  | table | gschool
+ public | items      | table | gschool
+ public | orderitems | table | gschool
+ public | orders     | table | gschool
+(4 rows)
+

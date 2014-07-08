@@ -1,0 +1,56 @@
+exercisedb=# select orders.*, customers.name as cutomer_name from orders inner join customers on orders.customer_id = customers.id
+exercisedb-# ;
+ id | customer_id | amount |     cutomer_name
+ id | customer_id | amount |     cutomer_name
+----+-------------+--------+----------------------
+  1 |           6 |  63.35 | Zelma Davis
+  2 |           5 |  55.42 | Elta Dicki
+  3 |           7 |   91.7 | Edna Hintz
+  4 |           4 |  49.52 | Evert Pfeffer
+  5 |           4 |   4.81 | Evert Pfeffer
+  6 |           5 |  65.82 | Elta Dicki
+  7 |           4 |  25.91 | Evert Pfeffer
+  8 |           8 |  64.59 | Coleman Prohaska Jr.
+  9 |           3 |  68.89 | Ms. Sofia Rowe
+ 10 |           7 |  85.04 | Edna Hintz
+ 11 |           1 |  19.67 | Donato Rempel
+ 12 |           6 |  29.74 | Zelma Davis
+ 13 |           5 |  61.56 | Elta Dicki
+ 14 |           6 |  30.24 | Zelma Davis
+ 15 |           1 |   5.67 | Donato Rempel
+ 16 |           9 |  31.45 | Wilhelmine Huels
+ 17 |           2 |   1.69 | Tyrell Von DDS
+ 18 |          10 |  30.91 | Hulda Will III
+ 19 |           3 |  97.11 | Ms. Sofia Rowe
+ 20 |           2 |    5.4 | Tyrell Von DDS
+ 21 |           1 |  55.97 | Donato Rempel
+ 22 |           4 |  44.42 | Evert Pfeffer
+ 23 |          10 |  80.77 | Hulda Will III
+ 24 |           7 |  11.16 | Edna Hintz
+ 25 |          10 |  26.37 | Hulda Will III
+ 26 |           1 |  39.48 | Donato Rempel
+ 27 |           9 |  13.33 | Wilhelmine Huels
+ 28 |           4 |  19.72 | Evert Pfeffer
+ 29 |           6 |  73.06 | Zelma Davis
+ 30 |          10 |  81.17 | Hulda Will III
+ 31 |          10 |  56.66 | Hulda Will III
+ 32 |           4 |  84.81 | Evert Pfeffer
+ 33 |           6 |  36.94 | Zelma Davis
+ 34 |           6 |  35.54 | Zelma Davis
+ 35 |           3 |  94.27 | Ms. Sofia Rowe
+ 36 |           5 |  81.47 | Elta Dicki
+ 37 |           7 |  86.86 | Edna Hintz
+ 38 |           4 |  58.23 | Evert Pfeffer
+ 39 |           5 |  52.57 | Elta Dicki
+ 40 |          10 |  34.62 | Hulda Will III
+ 41 |           1 |  35.28 | Donato Rempel
+ 42 |           3 |  77.16 | Ms. Sofia Rowe
+ 43 |           8 |  37.08 | Coleman Prohaska Jr.
+ 44 |           8 |   99.0 | Coleman Prohaska Jr.
+ 45 |           7 |   37.9 | Edna Hintz
+ 46 |          10 |   3.05 | Hulda Will III
+ 47 |           8 |  31.07 | Coleman Prohaska Jr.
+ 48 |           7 |  80.36 | Edna Hintz
+ 49 |           3 |   50.1 | Ms. Sofia Rowe
+ 50 |           5 |   59.5 | Elta Dicki
+(50 rows)
